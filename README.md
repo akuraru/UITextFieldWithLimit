@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/UITextFieldWithLimit.svg?style=flat)](http://cocoadocs.org/docsets/UITextFieldWithLimit)
 [![Platform](https://img.shields.io/cocoapods/p/UITextFieldWithLimit.svg?style=flat)](http://cocoadocs.org/docsets/UITextFieldWithLimit)
 
-This subclass of the UITextField,  adds a text length limit.
+This subclass of the UITextField, adds a text length limit.
 
 ![gif](http://gyazo.com/469ee2f88953cda723db1ea9744d8ff8.gif)
 
