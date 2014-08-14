@@ -96,7 +96,7 @@
         textField.selectedTextRange = selectedTextRange;
 
     }
-    [self.limitLabel setText:[NSString stringWithFormat:@"%d", self.maxLength.integerValue - textField.text.length]];
+    [self.limitLabel setText:[@(self.maxLength.integerValue - textField.text.length) stringValue]];
 }
 
 - (void)_textFieldBegin:(id) _textFieldDidEnd {
