@@ -1,0 +1,10 @@
+target 'UITextFieldWithLimit', :exclusive => true do
+  pod "UITextFieldWithLimit", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UITextFieldWithLimit", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
