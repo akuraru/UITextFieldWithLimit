@@ -19,7 +19,7 @@
 @end
 
 @interface UITextFieldWithLimit : UITextField <UITextFieldDelegate>
-@property(nonatomic, strong) id <UITextFieldWithLimitDelegate> limitDelegate;
+@property(nonatomic, weak) id <UITextFieldWithLimitDelegate> limitDelegate;
 // Default : @10
 @property(readwrite, nonatomic) NSNumber *maxLength;
 @property(strong, nonatomic) UILabel *limitLabel;
